@@ -1,4 +1,4 @@
-# probes
+# profit
 ```
 Output possible probe sets
 
