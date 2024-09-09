@@ -1,4 +1,7 @@
-# profit
+# ProFIT (PRObe FInding Tool)
+Code to create probe set that hits target sequences without hitting negative sequences for the paper [A novel pipeline for exploring plasmid-bacterial hosts dynamics at the community and the single cell level in gut microbiomes]()
+
+Usage:
 ```
 Output possible probe sets
 
@@ -24,3 +27,4 @@ optional arguments:
                         maximum number of times a negative sequence may be hit
                         (default: 3)
 ```
+Example output files can be found in the files `probes_list.tsv` and `probes_hits.tsv`. `probes_list.tsv` is a **tab-separated** file listing in order the sequence of each probe, the sequence names of any new target sequences hit by adding that probe to the list and the sequnece names of any new negative sequence that would be hit by adding that probe to the set. `probes_list.tsv` is a **tab-separated** file listing the sequence of each probe and the sequence name and location of each positive and negative hit of the probe in the target and negative seqeuences.
