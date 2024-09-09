@@ -1,7 +1,9 @@
 # ProFIT (PRObe FInding Tool)
 Code to create probe set that hits target sequences without hitting negative sequences for the paper [A novel pipeline for exploring plasmid-bacterial hosts dynamics at the community and the single cell level in gut microbiomes]()
 
-Usage:
+Usage example: `python main.py -t <targets fasta> -n <negative sequences fasta> -o <output directory> -l <length of probe (default: 20)> -d <max # of degenrate bases allowed in probe (default: 1)> -c <# probes required to cover target sequence (default: 15) -f <max # times a negative sequence may be hit (default: 3)`
+
+Command line arguments
 ```
 Output possible probe sets
 
